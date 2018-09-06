@@ -4,6 +4,7 @@
 1. Navigate to the user directory `cd ~`
 2. Clone the git repo `git clone https://github.com/dylpickles93/dotfiles.git`
 3. Run the script `bash ./dotfiles/makesymlinks.sh`
+4. In your `~` directory, add a `.credentials` file with any env var credentials you need.
 
 ### Add or remove a file from the symlinking script
 Add the file name separated by a space in the `files` variable

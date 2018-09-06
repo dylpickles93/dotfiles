@@ -49,6 +49,7 @@ if [ "$PS1" != "" ]; then
 fi
 
 # ENVIRONMENTAL VARS
+source ~/.credentials
 
 # Set starting directory
 cd ~/environment/git-repos/sales-project-view-mono
