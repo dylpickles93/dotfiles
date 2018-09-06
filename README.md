@@ -8,3 +8,7 @@
 ### Add or remove a file from the symlinking script
 Add the file name separated by a space in the `files` variable
 - eg) `files="bash_profile  bashrc  git-completion.bash  gitconfig"`
+
+### Notes
+- Due to symlinking, you can edit the actual .bash_profile file and have the 
+dotfile bash_profile automatically update
