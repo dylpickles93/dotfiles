@@ -28,6 +28,7 @@ alias gCred='git config credential.helper store'
 alias assume-unchanged="git update-index --assume-unchanged"
 alias rollback="git reset HEAD~1"
 	alias git-rollback="rollback"
+alias test="mocha test --watch"
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
