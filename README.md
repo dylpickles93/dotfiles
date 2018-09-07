@@ -13,3 +13,6 @@ Add the file name separated by a space in the `files` variable
 ### Notes
 - Due to symlinking, you can edit the actual .bash_profile file and have the 
 dotfile bash_profile automatically update
+- The keybindings are not tied to your AWS EC2 instance, but rather tied to your
+account. There is no need to manually set this when creating a new EC2, but is 
+good to include in the dotfiles in case you want revert back to previous version.

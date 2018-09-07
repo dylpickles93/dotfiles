@@ -1,0 +1,13 @@
+// Edit this keymap file and save to apply.
+[
+    { "command": "closeallbutme", "keys": { "win": ["Ctrl-Alt-9"] } },
+    { "command": "closealltabs", "keys": { "win": ["Alt-Shift-J"] } },
+    { "command": "closepane", "keys": { "win": ["Ctrl-J"] } },
+    { "command": "closetab", "keys": { "win": ["Alt-J"] } },
+    { "command": "redo", "keys": { "win": ["Ctrl-Y"] } },
+    { "command": "findAll", "keys": { "win": ["Ctrl-Alt-F"] } },
+    { "command": "formatprefs", "keys": { "win": [""] } },
+    { "command": "gethelp", "keys": { "win": ["Ctrl-Shift-H"] } },
+    { "command": "copyFilePath", "keys": { "win": ["Ctrl-Alt-C"] } },
+    { "command": "preview", "keys": { "win": ["Ctrl-M"] } }
+]

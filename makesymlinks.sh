@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bash_profile  bashrc  git-completion.bash  gitconfig refreshGitStatus.sh"    # list of files/folders to symlink in homedir
+files="bash_profile  bashrc  git-completion.bash  gitconfig refreshGitStatus.sh keybindings.settings"    # list of files/folders to symlink in homedir
 
 ##########
 
