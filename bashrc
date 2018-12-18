@@ -52,4 +52,4 @@ fi
 source ~/.credentials
 
 # Set starting directory
-cd ~/environment/git-repos/sales-project-view-mono
+cd ~/environment/git-repos/autotiv

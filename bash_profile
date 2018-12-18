@@ -21,6 +21,7 @@ source $HOME/.nvm/nvm.sh
 alias type='type -a'
 alias gs='bash ~/.refreshGitStatus.sh'
 alias gd='git diff'
+alias gdc='git diff --cached'
 alias gCred='git config credential.helper store'
 	alias g-cred=gCred
 	alias git-cred=gCred
@@ -44,6 +45,7 @@ alias g="git"
 alias co="git checkout" 
 alias gc="git commit" 
 alias ga="git add"
+alias nochange="git update-index --assume-unchanged"
 
 # Setting the color of the terminal
 alias setblack="/proc/`pgrep tmux | head -1`/exe select-pane -t ${TMUX_PANE} -P 'bg=colour16'"
@@ -52,6 +54,7 @@ alias setblack="/proc/`pgrep tmux | head -1`/exe select-pane -t ${TMUX_PANE} -P 
 alias spv="cd ~/environment/git-repos/sales-project-view-mono/"
 alias bp="nano ~/.bash_profile"
 alias dotfiles="cd ~/dotfiles"
+alias atv="cd ~/environment/git-repos/autotiv"
 
 #view objects
 objectDict () {
@@ -62,3 +65,5 @@ objectDict () {
 alias mochaDot="mocha test --reporter dot --watch"
 	alias mocha-dot="mochaDot"
 
+#ngrok
+alias ngrok="~/Scripts/ngrok"
